@@ -1,0 +1,12 @@
+body {
+  padding-top: 10px;
+}
+
+img#billMurrayRound {
+ width: 75%;
+ height: 75%;
+}
+
+div#side {
+  color: #999;
+}
