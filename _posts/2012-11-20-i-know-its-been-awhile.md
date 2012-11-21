@@ -9,7 +9,7 @@ I know; it's been awhile. There's no excuse. I was travelling&hellip;school&hell
 
 Meh. Who are we kidding?
 
-We know what's responsible. And we're not going to take it. Those things&hellip;
+We know what's responsible. And we're not going to take it. Those&hellip;those things&hellip;those bacteria.
 
 Ahh, yes. I hear you met our class president at a baseketball game. I never played basketball much. People used to always ask, "Do you play basket ball?" 
 
