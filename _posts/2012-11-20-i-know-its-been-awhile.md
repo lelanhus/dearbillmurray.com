@@ -11,7 +11,7 @@ Meh. Who are we kidding?
 
 We know what's responsible. And we're not going to take it. Those&hellip;those things&hellip;those bacteria.
 
-Ahh, yes. I hear you met our class president at a baseketball game. I never played basketball much. People used to always ask, "Do you play basket ball?" 
+Ahh, yes. I hear you met our class president at a baseketball game. I never played basketball much. People used to always ask, "Do you play basketball?" 
 
 Then I would look them in the eye, muster up the saddest, most puppy-dog-looking eyes, just holding back the tears and reply, "No, why do you ask?" (I'm 6'5".)
 
