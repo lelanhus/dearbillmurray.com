@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hi, Mr. Murray.
+title: I know, it's been awhile.
 ---
 <span class="date">
-  9/25/2012
+  11/20/2012
 </span>
 I'll start  with the customary&ndash;I'm a huge fan. Also, sorry for missing your birthday. I'm sure you had fun.
 

@@ -76,25 +76,24 @@
         top: -17px;
         left: 350px;
       }
+      nav {
+        float: left;
+        text-align: right;
+      }
     </style>
 
   </head>
   <body>
+    <nav>
+      <a href="#about">About</a>
+    </nav>
     <div class="container">
       <h1>Dear Bill Murray,</h1>
     	{{ content }}
-    	<div class="signature">
-    	  <p>
-          Thanks,
-        </p>
-        <p>
-          The guy that wrote this.
-        </p>
-      </span>
-    	
-    	<a href="/previous-correspondence/" class="previous">Previous correspondence</a>
+
     	<hr />
       <footer>
+        <a name="about">
         <h4>About</h4>
         <ul>
           <li>Bill Murray you're awesome.</li>
