@@ -89,6 +89,24 @@
         margin: 0 2em;
         padding: 1em 2em;
       }
+      
+      @media (max-width: 480px) {
+        h1 {
+          clear: left;
+        }
+        nav {
+          padding-bottom: 0.5em;
+        }
+        nav ul, nav li{
+          display: inline;
+        }
+        nav li {
+          padding: 0.5em;
+        }
+        li.first {
+          padding-left: 0;
+        }
+      }
 
     </style>
 
@@ -96,7 +114,7 @@
   <body>
     <nav>
       <ul>
-        <li><a href="{{site.url}}">Home</a></li>
+        <li class="first"><a href="{{site.url}}">Home</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
