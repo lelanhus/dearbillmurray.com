@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{{ page.title }}</title>
-    <link href="/img/favicon.ico" rel="icon" type="image/x-icon">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    
-    <link rel='stylesheet' href='/css/site.css'>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li class="first"><a href="{{site.url}}">Home</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
+{% include header.html %}
+{% include navigation.html %}
     <div class="container">
       <h1>Dear Bill Murray,</h1>
     	{{ content }}
 
     	<hr />
-      <footer>
-        <a id="about" />
-        <h4>About</h4>
-        <ul>
-          <li>Bill Murray you're awesome.</li>
-          <li>Come speak at my class's Long White Coat Ceremony.</li>
-          <li>It's in May&hellip;of 2015.</li>
-          <li>contact@dearbillmurray.com</li>
-        </ul>
-        <p id="copy">
-          &copy;2012&ndash;dearbillmurray.com | Hosted on Github because they're awesome too.
-        </p>
-        <!-- Google analytics -->
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-35069943-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-      </footer>
+      {% include footer.html %}
     </div>
   </body>
 </html>
