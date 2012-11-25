@@ -2,7 +2,7 @@
 layout: default
 title: Dear Bill Murray
 ---
-{% assign first_post = site.posts.first %} 
+{% assign first_post = site.posts.first %}
 {{ first_post.content }}
 
 <div class="signature">

@@ -2,9 +2,6 @@
 layout: post
 title: I know; it's been awhile.
 ---
-<span class="date">
-  11/20/2012
-</span>
 I know; it's been awhile. There's no excuse. I was travelling&hellip;school&hellip;life.
 
 Meh. Who are we kidding?
