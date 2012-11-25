@@ -3,113 +3,9 @@
   <head>
     <title>{{ page.title }}</title>
     <link href="/img/favicon.ico" rel="icon" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     
-    <style>
-      body {
-        color: #333;
-        font: 100%/1.5em "Georgia";
-      }
-      h1, h2, h3, h4 {
-        font-family: georgia, times, sans-serif;
-        font-weight: normal;
-      }
-      h1 {
-        font-size: 218%;
-        margin-bottom: 0;
-      }
-      h2 {
-        font-size: 164%;
-      }
-      h3 {
-        font-size: 145%;
-      }
-      h4 {
-        font-size: 118%;
-      }
-      div.container {
-        max-width: 430px;
-        margin: 0 auto;
-      }
-      ul {
-        padding-left: 0;
-      }
-      ul.posts {
-        list-style: none;
-      }
-      footer {
-        font-size: 90%;
-        margin-top: 2em;
-      }
-      hr {
-        position: relative;
-        margin-top: 20px;
-        background: #c0c0c0;
-        height: 2px;
-        clear: both;
-      }
-      hr:before {
-        display: block;
-        position: absolute;
-        text-align: center;
-        width: 0.8em;
-        left: 50%;
-        margin: -14px 0 0 -8px;
-        content: "\2767";
-        font-size: 150%;
-        padding: 0 8px;
-        background: white;
-      }
-      #copy {
-        font-size: 75%;
-        text-align: center;
-      }
-      a.previous {
-        display: block;
-        font-size: 85%;
-        margin-top: 2em;
-      }
-      div.signature {
-        margin-top: 2em;
-      }
-      div.signature p {
-        line-height: 0.5em;        
-      }
-      nav {
-        float: left;
-      }
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-      #postNav {
-        text-align: center;
-      }
-      #postNav a {
-        margin: 0 2em;
-        padding: 1em 2em;
-      }
-      
-      @media (max-width: 480px) {
-        h1 {
-          clear: left;
-        }
-        nav {
-          padding-bottom: 0.5em;
-        }
-        nav ul, nav li{
-          display: inline;
-        }
-        nav li {
-          padding: 0.5em;
-        }
-        li.first {
-          padding-left: 0;
-        }
-      }
-
-    </style>
-
+    <link rel='stylesheet' href='/css/site.css'>
   </head>
   <body>
     <nav>
@@ -124,7 +20,7 @@
 
     	<hr />
       <footer>
-        <a name="about">
+        <a id="about" />
         <h4>About</h4>
         <ul>
           <li>Bill Murray you're awesome.</li>
