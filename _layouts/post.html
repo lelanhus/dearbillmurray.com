@@ -10,6 +10,12 @@ layout: default
     The guy that wrote this.
   </p>
 </div>
-<p>
-  <a href="http://dearbillmurray.com">Back</a>
+
+<p id="postNav">
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}">Previous</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a href="{{page.next.url}}">Next</a>
+  {% endif %}
 </p>
