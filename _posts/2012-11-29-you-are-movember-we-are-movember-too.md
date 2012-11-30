@@ -6,12 +6,12 @@ I thought you might appreciate some of our Movember videos since you're [Mo'd ou
 
 ## The Trailer
 <div class="embed-container">
-{% youtube R2RPFjUF1_U%}
+  <iframe src="http://www.youtube.com/embed/R2RPFjUF1_U" frameborder="0"> </iframe>
 </div>
 
 ## The Feature
 <div class="embed-container">
-{% youtube ZVFwzxd3I4M%}
+  <iframe src="http://www.youtube.com/embed/ZVFwzxd3I4M" frameborder="0"> </iframe>
 </div>
 
 ## The Awards
