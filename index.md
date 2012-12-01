@@ -16,6 +16,11 @@ title: Dear Bill Murray
 <hr />
 <ul class="posts">
 {% for post in site.posts offset:1 %}
-  <li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li>
+    <article>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <time datetime="{{ post.date }}" pubdate="pubdate">{{ post.date | date_to_string }}</time>
+    </article>
+  </li>
 {% endfor %}
 </ul>

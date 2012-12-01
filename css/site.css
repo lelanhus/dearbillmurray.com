@@ -29,6 +29,26 @@ ul {
 ul.posts {
   list-style: none;
 }
+ul.posts a {
+  display: block;
+}
+ul.posts h1 {
+  font-size: 1em;
+  line-height: 1.1em;
+}
+ul.posts li {
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+ul.posts li:hover {
+  background: #e5e5e5;
+}
+ul.posts time {
+  font-size: 0.85em;
+}
 footer {
   font-size: 90%;
   margin-top: 2em;
