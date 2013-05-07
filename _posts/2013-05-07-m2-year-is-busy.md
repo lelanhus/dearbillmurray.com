@@ -1,5 +1,6 @@
+---
 layout: post
-title: Holy crap. You're a superhero too?
+title: I'm not as smart as you.
 ---
 
 Sorry for not writing more frequently. I hope to do better during M3 year. M2 year is just really busy.
